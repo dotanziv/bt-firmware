@@ -1,0 +1,49 @@
+From 0a1db2fba0a3f58d6d25cf3d1c6c8731439a6d81 Mon Sep 17 00:00:00 2001
+From: Victor Lin <vlin@ti.com>
+Date: Wed, 17 Jul 2013 12:30:53 -0500
+Subject: [PATCH] firmware: Modified TIInit_7.6.15.bts for WL1273(L)
+
+"XTAL enable" paramter of "Send_HCI_VS_Fast_Clock_Configuration_btip" changed from 0x01 to 0xff
+
+Signed-off-by: Victor Lin <vlin@ti.com>
+---
+ TIInit_7.6.15.bts        |  Bin 50587 -> 50591 bytes
+ am335x/TIInit_7.6.15.bts |  Bin 42066 -> 42126 bytes
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+diff --git a/TIInit_7.6.15.bts b/TIInit_7.6.15.bts
+index 60f3a0edc0198252774c72bc23689578fb357176..8905bb17a7dbf5263973ae32befb48175beab8b5 100644
+GIT binary patch
+delta 435
+zcmbQ;%{;%Gc|(mECmRDJ0|SVdJljlOT%3VX=CAPo4q*m{3+xOG|Nk@o|Ns9N<77s2
+zaWU+2lP{V{Y?d%zlvyvpz}WPchhdJyB?!3ljERAt0b~@=BnB2f7KWz3Kzks{80VaW
+zf*X(UC}Sd|jE{k_{Vx|UFE0Zd#D>WM3mb&to&x&}Ol%fhG?@|M+sy|SuaK9(q7D)k
+zOAp^>W@DHz`Rie`dILip1%nC$ATTtxumG`B48S7h5OD;VmIh)&NCOiDI}HfHyhMar
+cka@t+zz9?pP=Eu&3mzzw@0xK<UVr2b0K_$U@&Et;
+
+delta 456
+zcmbQ=%{;rCc|(nvJR<`q1LK{)tPDUP#KgeQ&>_sgzz*cF@Ubx5`8&DQOkP}qfl=nK
+z$bXQ`1)$Xb|BV0t|Nq4}dE!E0X_>zaj11TnOrEe%Wb<#c<(c(B`KG@j409wdLBO47
+zAAYg$N&IJEK)108Y8+5G<D7F)aO2UNZwy=__?0u^RxS?r5ZHKj2FCWk%)Gq3lhqeC
+z=rA&HF)%j#WdnMHfq@a-Jq;lDKor<~hzI$Ysp0SDT?;2O$}lnj^+f+=V#LrC{daTN
+z;uZ3?a1|KdjQ$JK4787dm4Wf@UrZzJ{+%p#__hQrXc-Y<&jJd2P|!}^aO6Dz@nnNv
+
+diff --git a/am335x/TIInit_7.6.15.bts b/am335x/TIInit_7.6.15.bts
+index 58a4dc561448a9c6821e1cbeacd43042d25fd04b..82b8d9c79c50ad4151b41fd2bc16a42d5b59ce56 100755
+GIT binary patch
+delta 360
+zcmca~f~oH$(}qK4oNNq?3=AM*@<TIuad8GlnZLsSJA@e+F0eB&{QuAR|NsAAjFSTw
+zi%KvuV3(a7uvlz!jQNtxdI1K;roTK4b0jW7z@2AI4Ezir!+>Tnu<)@kH2nqI1X0E~
+z=NuH=c!Wn86Cq`M42<o6xp;Yb8Q35;OrEx|K^X2Wu-_ma3}5tsnT=t><TZ=TTnr3#
+z6bvd1fWXk$!UDujF#wC0L&OneS{jHAAq`9r?6kDWa*M?zf&Re=78X#TZ4Ow>#0UTq
+CXKr8s
+
+delta 315
+zcmeA>$#m%i(}qK4@{A0e42*aFvN8aH5EBDGLx(T}13Qqz!pFjJ=kMgxX7Ume42&{=
+zMgD_iE&!$e|7ZOF|Nk#WhRKZP;$qk(CoeP;+3aY(JW~oN-}G06VUENl2)Og?!!H&-
+ziT?}?lNA?=LZun!oP&ZJkKTM^;1WTVX2K!O$<Dyo{+F4Tmv?gR!Uji11}+B1hQDkK
+uj6nA@qI;&{FHjt!z~)0dPz9!fNsAsxFfu@V#E9@N3&^`5A5EUW_&oqTvuq9k
+
+-- 
+1.7.9.5
+
